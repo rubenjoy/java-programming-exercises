@@ -24,9 +24,10 @@ and employeeId as foreign key to Employee entity.
 and employeeId as foreign key to Employee entity.
 6. Implement Project entity, which has n-n relationship and
 employeeId as foreign key to Employee entity.
-7. __TODO__ embedded object
-8. __TODO__ entity listener
-9. __TODO__ JPQL or Criteria Builder
+7. Implement EmploymentHistory and Period which are embeddable 
+entity inside Employee entity
+8. Implement EmployeeEntityListener as EntityListener for Employee entity
+9. Implement static and dynamic query on defined entities
 
 # Configuration
 
