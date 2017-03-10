@@ -70,7 +70,6 @@ public class EmployeeManager {
 			}
 		}
 		entityManager.merge(employee);
-		entityManager.flush();
 		entityManager.getTransaction().commit();		
 	}
 
